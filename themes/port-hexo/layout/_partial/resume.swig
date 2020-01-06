@@ -2,14 +2,14 @@
   <header>
     <div class="name-wrapper">
       <div id="fullname" class="title">
-        {{ config.resume.name }}
+        {{ theme.resume.name }}
       </div>
       <div id="jobtitle" class="sub-title">
-        {{ config.resume.jobtitle }}
+        {{ theme.resume.jobtitle }}
       </div>
     </div>
     <div id="contact" class="contact">
-      {% for item in config.resume.contact %}
+      {% for item in theme.resume.contact %}
       <div class="contact-item">
         {% if item.link %}
         <a href="{{ item.link }}">
@@ -28,7 +28,7 @@
       Education
     </div>
     <div class="section-content">
-      {% for edu in config.resume.education %}
+      {% for edu in theme.resume.education %}
       <div class="block">
         <div class="block-title">
           {{ edu.university }}
@@ -49,7 +49,7 @@
       Skills
     </div>
     <div class="section-content">
-      {% for skill in config.resume.skills %}
+      {% for skill in theme.resume.skills %}
       <div class="block">
         <div class="block-title">
           {{ skill.title }}
@@ -67,7 +67,7 @@
       Experience
     </div>
     <div class="section-content">
-      {% for exp in config.resume.experience %}
+      {% for exp in theme.resume.experience %}
       <div class="block">
         <div class="block-title">
           {{ exp.title }}
@@ -88,7 +88,7 @@
       Projects
     </div>
     <div class="section-content">
-      {% for project in config.resume.projects %}
+      {% for project in theme.resume.projects %}
       <div class="block">
         <div class="block-title">
           {{ project.name }}
@@ -109,7 +109,7 @@
       Languages
     </div>
     <div class="section-content section-flex">
-      {% for language in config.resume.languages %}
+      {% for language in theme.resume.languages %}
       <div class="block block-square">
         <div class="block-title">
           {{ language.name }}
