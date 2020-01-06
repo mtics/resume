@@ -31,7 +31,13 @@
       {% for edu in theme.resume.education %}
       <div class="block">
         <div class="block-title">
+          {% if edu.link %}
+          <a href="{{ edu.link }}">
+          {% endif %}
           {{ edu.university }}
+          {% if edu.link %}
+          </a>
+          {% endif %}
         </div>
         <div class="block-subtitle">
           {{ edu.duration }} | {{ edu.location }}

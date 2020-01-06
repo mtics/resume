@@ -15,6 +15,7 @@ resume:
       link: https://github.com/mtics
   education:
     - university: Zhengzhou University
+      link: https://en.wikipedia.org/wiki/Zhengzhou_University# Your university's link
       duration: Sep 2016 - July 2020
       location: Zhengzhou, Henan, China
       major: Computer Science
