@@ -21,6 +21,11 @@
       </div>
       {% endfor %}
     </div>
+    <div class="portrait">
+      {% if theme.resume.portrait %}
+      <img class="author-img" src="{{theme.resume.portrait}}" alt="author-img"/>
+      {% endif %}
+    </div>
   </header>
 
   <section id="education">
@@ -50,39 +55,36 @@
     </div>
   </section>
 
-  <section id="skills">
+  <section id="awards">
     <div class="section-title">
-      Skills
+      Awards
     </div>
     <div class="section-content">
-      {% for skill in theme.resume.skills %}
+      {% for award in theme.resume.awards %}
       <div class="block">
         <div class="block-title">
-          {{ skill.title }}
+          {{ award.title }}
         </div>
-        <div class="block-content">
-          {{ skill.items }}
+        <div class="block-subtitle">
+          {{ award.date }}
         </div>
       </div>
       {% endfor %}
     </div>
   </section>
 
-  <section id="experience">
+  <section id="honors">
     <div class="section-title">
-      Experience
+      honors
     </div>
     <div class="section-content">
-      {% for exp in theme.resume.experience %}
+      {% for honor in theme.resume.honors %}
       <div class="block">
         <div class="block-title">
-          {{ exp.title }}
+          {{ honor.title }}
         </div>
         <div class="block-subtitle">
-          {{ exp.duration }} | {{ exp.company }}
-        </div>
-        <div class="block-content">
-          {{ exp.description }}
+          {{ honor.date }}
         </div>
       </div>
       {% endfor %}
@@ -110,21 +112,22 @@
     </div>
   </section>
 
-  <section id="languages">
+  <section id="skills">
     <div class="section-title">
-      Languages
+      Skills
     </div>
-    <div class="section-content section-flex">
-      {% for language in theme.resume.languages %}
-      <div class="block block-square">
+    <div class="section-content">
+      {% for skill in theme.resume.skills %}
+      <div class="block">
         <div class="block-title">
-          {{ language.name }}
+          {{ skill.title }}
         </div>
-        <div class="block-content">
-          {{ language.proficiency }}
+        <div class="block-subtitle">
+          {{ skill.items }}
         </div>
       </div>
       {% endfor %}
     </div>
   </section>
+
 </div>
