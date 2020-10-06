@@ -1,0 +1,84 @@
+title: Zhiwei Li's Résumé
+
+footer:
+  enable: true # decide where you want to show  your footer
+  copyright:  # customize your copyright in footer, e.g. © 2019-2020 Jevis Li
+    startYear: 2019
+    currentYear: 2020
+    author: Zhiwei Li
+    link: https://mtics.top
+    beian: 
+
+
+################################
+#     Write your resume Here   #
+################################
+resume:
+  name: Zhiwei Li
+  jobtitle: Master student
+  portrait: https://aspi.oss-cn-beijing.aliyuncs.com/resume/avatar.jpg
+  contact:
+    - icon: fa-envelope
+      text: lizhw(at)shanghaitech.edu.cn
+    - icon: fa-phone-square
+      text: 158-380-*****
+    - icon: fa-globe
+      text: 吾人为学
+      link: https://mtics.top
+    - icon: fa-github
+      text: mtics
+      link: https://github.com/mtics
+  education:
+    - university: Shanghaitech University
+      link: https://en.wikipedia.org/wiki/ShanghaiTech_University# Your university's link
+      duration: Sep 2020 - 
+      location: Shanghai, China
+      major: Master in Computer Science
+    - university: Zhengzhou University
+      link: https://en.wikipedia.org/wiki/Zhengzhou_University# Your university's link
+      duration: Sep 2016 - July 2020
+      location: Zhengzhou, Henan, China
+      major: B.S in Computer Science
+  awards:
+    - title: RobopCup Asia-Pacific TianJin Invitational Tournament 2019 2nd Place
+      date: 2019.05
+    - title: 2019 RoboCup China Open Standard Platform League (NAO) 3rd Place
+      date: 2019.04
+    - title: 2018 "Softbank Robot Cup" China Robot Skills Competition Third Prize
+      date: 2018.12
+    - title: The Fifth Henan Robot Contest For College Students Third Prize
+      date: 2018.08
+    - title: The Ninth National Professional Software Engineering "Blue Bridge Cup" Design Contest Henan Province Preliminary Round Second Prize
+      date: 2018.04
+    - title: 2017 "Softbank Robot Cup" China Robot Skills Competition Second Prize
+      date: 2017.12
+  honors:
+    - title: The Outstanding Member of The Communist Youth League
+      date: 2019.05
+    - title: The School Outstanding Student Cadre
+      date: 2018.12
+    - title: The Third Prize Scholarship
+      date: 2018.11
+    - title: The Advanced Social Practice Individual
+      date: 2018.09 
+    - title: The Advanced Social Practice Individual
+      date: 2017.09
+  projects:
+    - name: XiaoJiaBiYu System
+      description: Completed a Simple Heating Temperature Control System. The system is able to limit the flow of water in thepipeline by operation the solenoid valve installed on the heating pipeline, so that the indoor environment could achieve a suitable temperature. Be in charge of the APP development for remote control through android phones.
+      contribution: Developer
+    - name: Pocket Electronics Lab based on mixed reality technology
+      description: The project is a National-level College Student Entrepreneur Project. By developing an APP to scan the circuit diagram in the physics textbook to see the three-dimensional display, thereby simulating the experimental process and helping students to conduct experimental analysis by designing their own circuits. Be in charge of the modeling of circuit diagrams and electrical components by using Unity3D.
+      contribution: Developer
+    - name: Mtics Resume for Hexo
+      description: A minimal and simple resume template for hexo.
+      contribution: Creator and Developer
+  skills:
+    - title: English
+      items: Work proficiency
+    - title: Mandarin Chinese
+      items: Native
+    - title: Java Web
+      items: Java, Spring, SpringBoot, Html/CSS
+    - title: Others
+      items: Python, Matlab, Latex, C/C++, MySQL

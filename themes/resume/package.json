@@ -1,0 +1,20 @@
+{
+  "name": "hexo-mtics-resume",
+  "version": "1.1.1",
+  "description": "A minimal resume theme for Hexo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtics/hexo-mtics-resume.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "resume"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhiwei Li",
+  "license": "MIT"
+}
